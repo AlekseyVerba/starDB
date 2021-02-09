@@ -1,0 +1,26 @@
+.randomPlanet {
+    background: rgb(63, 63, 63);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.planet {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 80px;
+}
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+.item {
+    padding-top: 5px;
+    border-top: 1px solid rgb(100, 100, 100);
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+/* .infoPlanet {
+
+} */

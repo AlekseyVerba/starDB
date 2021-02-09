@@ -1,0 +1,28 @@
+.itemList {
+    list-style-type: none;
+    padding: 0;
+    width: 45%;
+    margin-right: 35px;
+}
+.item {
+    font-size: 20px;
+    color: #fff;
+    background: rgb(63, 63, 63);
+    padding: 15px 20px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.item:hover {
+    background: rgb(99, 99, 99);
+}
+.item + .item {
+    border-top: 1px solid rgb(36, 36, 36)
+}
+.item:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.item:last-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
